@@ -24,8 +24,14 @@ public class Student {
         _gender = gender
     }
     
+    //方法（单独的函数叫函数，写在类里面的叫方法）
     public func sayHello(){
-        print("\(_name) say hello")
+        print("父类 - \(_name) say hello")
+    }
+    
+    //方法重载
+    public func sayHello(to:Student){
+        print("方法重载 - \(name) say hello to \(to.name) / \(to._name)")
     }
     
     public func getAge()->Int{
