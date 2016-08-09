@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9947DC6A1D5451B2005DB575"
-               BuildableName = "task2"
-               BlueprintName = "task2"
-               ReferencedContainer = "container:task2.xcodeproj">
+               BlueprintIdentifier = "99357D631D59F07100A78D21"
+               BuildableName = "task3"
+               BlueprintName = "task3"
+               ReferencedContainer = "container:task3.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9947DC6A1D5451B2005DB575"
-            BuildableName = "task2"
-            BlueprintName = "task2"
-            ReferencedContainer = "container:task2.xcodeproj">
+            BlueprintIdentifier = "99357D631D59F07100A78D21"
+            BuildableName = "task3"
+            BlueprintName = "task3"
+            ReferencedContainer = "container:task3.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9947DC6A1D5451B2005DB575"
-            BuildableName = "task2"
-            BlueprintName = "task2"
-            ReferencedContainer = "container:task2.xcodeproj">
+            BlueprintIdentifier = "99357D631D59F07100A78D21"
+            BuildableName = "task3"
+            BlueprintName = "task3"
+            ReferencedContainer = "container:task3.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9947DC6A1D5451B2005DB575"
-            BuildableName = "task2"
-            BlueprintName = "task2"
-            ReferencedContainer = "container:task2.xcodeproj">
+            BlueprintIdentifier = "99357D631D59F07100A78D21"
+            BuildableName = "task3"
+            BlueprintName = "task3"
+            ReferencedContainer = "container:task3.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

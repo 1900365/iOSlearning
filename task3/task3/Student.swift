@@ -13,7 +13,8 @@ public enum Gender:String{
     case Female = "女"
 }
 
-public class Student {
+//一个类只能继承自唯一的一个父类，接口(协议)是可以拥有多个的。有了接口后，必须有相关的实现代码。
+public class Student:NSObject,Human { //Human是个协议（或接口）
     private var _age:Int
     private var _name:String
     private var _gender:Gender
@@ -24,6 +25,18 @@ public class Student {
         _gender = gender
     }
     
+    //自定义类属性（description），必须让student继承自NSObject后才可用
+    public override var description: String{
+        get{
+            return "name: \(name), age: \(age), gender: \(gender)"
+        }
+    }
+    
+    //接口实现
+    public func eat() {
+        print("\(name) eat")
+    }
+    
     //方法（单独的函数叫函数，写在类里面的叫方法）
     public func sayHello(){
         print("父类 - \(_name) say hello")
@@ -31,8 +44,11 @@ public class Student {
     
     //方法重载
     public func sayHello(to:Student){
-        print("方法重载 - \(name) say hello to \(to.name) / \(to._name)")
+        print("方法重载toStudnet - \(name) say hello to \(to.name) / \(to._name)")
     }
+    //    public func sayHello(str:String){
+    //        print("方法重载String - \(str) say hello to \(name) / \(_name)")
+    //    }
     
     public func getAge()->Int{
         print("getAge()年龄: ", terminator: "")
@@ -84,4 +100,6 @@ public class Student {
             return _gender.rawValue
         }
     }
+    
+    
 }

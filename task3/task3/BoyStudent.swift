@@ -18,4 +18,8 @@ class BoyStudent:Student {
         super.sayHello()
         print("子类 - 方法重写 - Boy \(name) say hello")
     }
+    
+    func boySayHello() {
+        print("子类: \(name) is a \(gender)")
+    }
 }
