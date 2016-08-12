@@ -33,7 +33,7 @@ b.boySayHello()
 var str:String="My song.mp3"
 //func endWith(target:String,end:String)->Bool{
 //}
-print(str.endWith(".mp3 "))
+print("Using extension String: \(str.endWith(".mp3 "))")
 
 //结构体和类的2大区别：
 //1. 结构体不能继承，类可以继承
