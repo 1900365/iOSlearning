@@ -8,11 +8,10 @@
 
 import Foundation
 
-//var girl = GirlFriend(name:"kkk",age:20,grace: Grace.优雅, money:100)
-
-for i in 0..<10{
-    var girl = GirlFriend()
-    girl.eat("apple")
-    print(girl)
+let numberOfGirls = 100
+for girlList in 1...numberOfGirls{
+    var girlFriend = GirlFriend()
+    print("我的第\(girlList)个女朋友", girlFriend, separator: "", terminator: ", ")
+    girlFriend.date()
 }
 

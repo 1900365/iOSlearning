@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		99357D831D59F10B00A78D21 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99357D821D59F10B00A78D21 /* main.swift */; };
 		99357D8A1D59F13A00A78D21 /* GirlFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99357D891D59F13A00A78D21 /* GirlFriend.swift */; };
+		99357DAB1D5B5E4500A78D21 /* DateOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99357DAA1D5B5E4500A78D21 /* DateOption.swift */; };
+		99357DAF1D5B619500A78D21 /* GenerateGirlFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99357DAE1D5B619500A78D21 /* GenerateGirlFriend.swift */; };
+		99357DB11D5B623800A78D21 /* RandomNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99357DB01D5B623800A78D21 /* RandomNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +30,9 @@
 		99357D7F1D59F10B00A78D21 /* task3_1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = task3_1; sourceTree = BUILT_PRODUCTS_DIR; };
 		99357D821D59F10B00A78D21 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		99357D891D59F13A00A78D21 /* GirlFriend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GirlFriend.swift; sourceTree = "<group>"; };
+		99357DAA1D5B5E4500A78D21 /* DateOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateOption.swift; sourceTree = "<group>"; };
+		99357DAE1D5B619500A78D21 /* GenerateGirlFriend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenerateGirlFriend.swift; sourceTree = "<group>"; };
+		99357DB01D5B623800A78D21 /* RandomNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 			children = (
 				99357D821D59F10B00A78D21 /* main.swift */,
 				99357D891D59F13A00A78D21 /* GirlFriend.swift */,
+				99357DAA1D5B5E4500A78D21 /* DateOption.swift */,
+				99357DB01D5B623800A78D21 /* RandomNumber.swift */,
+				99357DAE1D5B619500A78D21 /* GenerateGirlFriend.swift */,
 			);
 			path = task3_1;
 			sourceTree = "<group>";
@@ -123,7 +132,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				99357D831D59F10B00A78D21 /* main.swift in Sources */,
+				99357DAB1D5B5E4500A78D21 /* DateOption.swift in Sources */,
+				99357DB11D5B623800A78D21 /* RandomNumber.swift in Sources */,
 				99357D8A1D59F13A00A78D21 /* GirlFriend.swift in Sources */,
+				99357DAF1D5B619500A78D21 /* GenerateGirlFriend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +257,7 @@
 				99357D881D59F10B00A78D21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
