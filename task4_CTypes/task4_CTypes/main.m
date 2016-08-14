@@ -28,7 +28,9 @@ int main(int argc, const char * argv[]) {
 //        Float64 lf = 3.14;    //64位的float，长度8
 //        printf("f = %f, size of float is %ld\n",f,sizeof(float));
 //        printf("lf = %lf, size of float is %ld\n",lf,sizeof(double));
-//        
+//        printf("%f\n",round(7.3));       //round是四舍五入
+
+        
 //        char ch = 'a';         //字符型。单引号是字符，双引号是字符串
 //        int8_t ch2 = 'b';      //int8_t和char是一样的
 //        printf("char = %c, int8_t输出%c\n",ch,ch2);   //正常输出字符用%c
