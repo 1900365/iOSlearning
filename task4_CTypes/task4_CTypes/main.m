@@ -65,6 +65,28 @@ int main(int argc, const char * argv[]) {
         str[7] = 'o';
         printf("%s\n",str);
 
+        //////////////////////////////////////////////////////////////////
+        //C String
+        char *str1 = "hello";
+        char *str2 = "world";
+        char buf[100];      //为防止内存越界溢出，设置一个缓冲区来进行字符串拼接
+        
+        memset(buf,0,100);  //用memory set将缓冲区全放入0，这样就是无内容
+        strcat(buf, str1);  //strcat的2个传入参数，是将第二个接在第一个的后面
+        strcat(buf," ");
+        strcat(buf, str2);
+        
+        printf("组合后的字符串是：%s\n",buf);
+        printf("%s长度是：%ld\n",buf,strlen(buf));    //strlen是获取字符串长度的
+        
+        //将任意类型的数据输出到一个字符串中
+        sprintf(buf, "%s %s=%d", str1,str2,100);   //sprintf(输出目标, 要输出的字符串)
+        printf("新拼接的buf是：%s\n",buf);
+        
+        char *num = "100";
+        int intVar = atoi(num);     //有很多atoX的函数可以用
+        printf("%s从char转成int后是%d\n",num,intVar);
+        //////////////////////////////////////////////////////////////////
     }
     return 0;
 }
