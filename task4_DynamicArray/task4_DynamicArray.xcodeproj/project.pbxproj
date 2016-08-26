@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		991C3EF31D647504003277D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 991C3EF21D647504003277D6 /* main.m */; };
 		991C3EFB1D6476BA003277D6 /* Array.c in Sources */ = {isa = PBXBuildFile; fileRef = 991C3EF91D6476BA003277D6 /* Array.c */; };
+		996823261D6DA98800F1611A /* Integer.c in Sources */ = {isa = PBXBuildFile; fileRef = 996823241D6DA98800F1611A /* Integer.c */; };
+		99D2C5741D6B12B70080A026 /* Object.c in Sources */ = {isa = PBXBuildFile; fileRef = 99D2C5721D6B12B70080A026 /* Object.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		991C3EF21D647504003277D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		991C3EF91D6476BA003277D6 /* Array.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Array.c; sourceTree = "<group>"; };
 		991C3EFA1D6476BA003277D6 /* Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Array.h; sourceTree = "<group>"; };
+		996823241D6DA98800F1611A /* Integer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Integer.c; sourceTree = "<group>"; };
+		996823251D6DA98800F1611A /* Integer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Integer.h; sourceTree = "<group>"; };
+		99D2C5721D6B12B70080A026 /* Object.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Object.c; sourceTree = "<group>"; };
+		99D2C5731D6B12B70080A026 /* Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Object.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,10 @@
 			isa = PBXGroup;
 			children = (
 				991C3EF21D647504003277D6 /* main.m */,
+				996823241D6DA98800F1611A /* Integer.c */,
+				996823251D6DA98800F1611A /* Integer.h */,
+				99D2C5721D6B12B70080A026 /* Object.c */,
+				99D2C5731D6B12B70080A026 /* Object.h */,
 				991C3EF91D6476BA003277D6 /* Array.c */,
 				991C3EFA1D6476BA003277D6 /* Array.h */,
 			);
@@ -123,7 +133,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				996823261D6DA98800F1611A /* Integer.c in Sources */,
 				991C3EF31D647504003277D6 /* main.m in Sources */,
+				99D2C5741D6B12B70080A026 /* Object.c in Sources */,
 				991C3EFB1D6476BA003277D6 /* Array.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,6 +257,7 @@
 				991C3EF81D647504003277D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
